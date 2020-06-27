@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    background-image: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 90%;
+    margin: 150px auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+p {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+button {
+    background-color: rgba(192, 244, 136, 0.6);
+    border-radius: 5px;
+    border: 0;
+    font-size: 24px;
+}
+
+button:hover {
+    background-color: rgba(249, 128, 163, 0.6);
+    outline: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.name, .menu, .kinder_slider {
+    margin-bottom: 100px;    
+}
+
+.kinder_slider {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.kinder_slider .sliders_window{
+    overflow: hidden;
+}
+.kinder_slider .sliders_wrapper {
+    display: flex;
+    transition: 0.5s;
+}
+.kinder_slider .one_slide {
+    padding: 20px 10px;
+}
+
+.kinder_slider .one_slide img {
+    width: 100%;
+}
+.kinder_slider .nav_block {
+    position: absolute;
+}
+.kinder_slider .nav_block .btn_next, .kinder_slider .nav_block .btn_prev {
+    cursor: pointer;
+
+}
+.kinder_slider .dot_block {
+    position: absolute;
+    bottom: -1.75rem;
+    display: flex;
+    
+}
+.kinder_slider .dot_block .dot {
+    cursor: pointer;
+    border: 0;
+    border-radius: 50%;
+    background-color: rgba(192, 244, 136, 0.6);
+    height: 1rem;
+    width: 1rem;
+    margin-right: 5px;
+}
+
+.kinder_slider .dot_block .dot:hover {
+    background-color: rgba(249, 128, 163, 0.6);
+    outline: 0;
+}
+
+.kinder_slider .dot_block .active {
+    background-color: rgba(249, 128, 163, 0.6);
+    outline: 0;
+}
+
+table, h1 {
+    border-collapse: collapse;    
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+h2 {
+    background-color:rgba(192, 244, 136, 0.6);
+}
+
+thead td, tbody td {
+    border: 2px solid rgba(192, 244, 136, 0.6);
+    padding: 4px;
+}
+
+thead {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tr .italic {    
+    font-style: italic;
+}
+
+.using {
+    margin-bottom: 100px;
+}
+
+.using img {
+    width: 450px;
+}
+
+.name p {
+    font-weight: bolder;
+}

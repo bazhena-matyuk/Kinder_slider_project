@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/kinder-slider.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="name">
+            <h1>Kinder slider</h1>
+            <p>A kinder slider than you might have found before.</p>
+        </div>        
+        <div class="menu">
+            <button><a href="https://github.com/bazhena-matyuk/Kinder_slider_project">Download Kinder slider</a></button>
+            <button><a href="#using">How to use Kinder slider</a></button>
+            <button><a href="#settings">Kinder slider settings</a></button>
+        </div>
+        <div class="main_slider">
+            <div><img src="./img/kindness1.jpg" alt="kindness1"></div>
+            <div><img src="./img/kindness2.jpg" alt="kindness2"></div>
+            <div><img src="./img/kindness3.jpg" alt="kindness3"></div>
+            <div><img src="./img/kindness4.jpg" alt="kindness4"></div>
+            <div><img src="./img/kindness5.jpg" alt="kindness5"></div>
+            <div><img src="./img/kindness6.jpg" alt="kindness6"></div>
+        </div>
+        <div class="using" id="using">
+            <h2>How to use</h2>
+            <div>
+                <p>1. Create the HTML where the slider should be.</p>
+                <img alt=step_1 src="./img/Step_1.png">
+            </div>
+            <div>
+                <p>2. Add kinder-slider.css in your tag "head".</p> 
+                <p>Add the new style.css if you want to change the default style.</p>
+                <img alt=step_2 src="./img/Step_2.png">
+            </div>
+            <div>
+                <p>3. Add kinder-slider.js before your closing tag "body".</p>
+                <p>Add script.js in the same place if you want to change the default settings.</p>
+                <img alt=step_3 src="./img/Step_3.png">
+            </div>   
+            <div>
+                <p>4. Congratulations, you can fill the slider with content and change its settings!</p>
+            </div>  
+
+        </div>
+        <div class="settings" id="settings">
+            <h2>Settings</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>What is it?</td>
+                        <td>Default value</td> 
+                        <td>Possible values</td>                  
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr> 
+                        <td class="italic">slidesWidth</td>
+                        <td>The width of your slide in px</td>
+                        <td>600</td>
+                        <td>your number</td>
+                    </tr>
+                    <tr> 
+                        <td class="italic">slidesHeight</td>
+                        <td>The height of your slide in px</td>
+                        <td>400</td>
+                        <td>your number</td>                        
+                    </tr>
+                    <tr> 
+                        <td class="italic">nav</td>
+                        <td>Show navigation</td>
+                        <td>false</td>
+                        <td>true/false</td>                        
+                    </tr>
+                    <tr> 
+                        <td class="italic">autoplay</td>
+                        <td>Turn on and off autoplay</td>
+                        <td>false</td>
+                        <td>true/false</td>                         
+                    </tr>
+                    <tr> 
+                        <td class="italic">autoplaySpeed</td>
+                        <td>Autoplay speed in milliseconds</td>
+                        <td>2000</td>
+                        <td>your number</td>                        
+                    </tr>
+                    <tr> 
+                        <td class="italic">slides</td>
+                        <td>Number of slides displayed simultaneously</td>
+                        <td>2</td>
+                        <td>your number</td>                        
+                    </tr>
+                    <tr> 
+                        <td class="italic">loop</td>
+                        <td>Turn on and off an infinite loop </td>
+                        <td>false</td>
+                        <td>true/false</td>                            
+                    </tr>
+                    <tr> 
+                        <td class="italic">dots</td>
+                        <td>Show dot indicators</td>
+                        <td>false</td>
+                        <td>true/false</td>                         
+                    </tr>                    
+                </tbody>                    
+            </table>
+        </div>
+
+    </div>
+
+    <script src="./js/kinder-slider.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
