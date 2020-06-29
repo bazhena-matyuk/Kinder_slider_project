@@ -41,9 +41,9 @@ NAME | WHAT IS IT? | DEFAULT VALUE | POSSIBLE VALUES
 ------------ | ------------- | ------------- | -------------
 *slidesWidth* | The width of your slide in px | 600 | your number
 *slidesHeight*|	The height of your slide in px	| 400 |your number
-*nav*|	Show navigation	|false	|true/false
+*nav*|	Show navigation	|true	|true/false
 *autoplay*	|Turn on and off autoplay|	false	|true/false
-*autoplaySpeed*	|Autoplay speed in milliseconds|	2000	|your number
+*autoplaySpeed*	|Autoplay speed in milliseconds|	2500	|your number
 *slides*	|Number of slides displayed simultaneously	|2	|your number
-*loop*	|Turn on and off an infinite loop	|false	|true/false
-*dots*	|Show dot indicators	|false	|true/false
+*loop*	|Turn on and off an infinite loop	|true	|true/false
+*dots*	|Show dot indicators	|true	|true/false
