@@ -30,7 +30,7 @@ Add script.js in the same place if you want to change the default settings.
 
 ```
 <script src="./js/kinder-slider.js"></script>
-    <script src="./js/script.js"></script>
+<script src="./js/script.js"></script>
 </body>
 ```
 
