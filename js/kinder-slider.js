@@ -2,11 +2,11 @@ const defaultOptions = {
     slides: 2,
     slidesWidth: 600,
     slidesHeight: 400,
-    nav: false,
+    nav: true,
     autoplay: false,
-    autoplaySpeed: 2000,    
-    loop: false,
-    dots: false,
+    autoplaySpeed: 2500,    
+    loop: true,
+    dots: true,
 }
 
 let shift = 0;
@@ -28,8 +28,9 @@ function kinderSlider(settings = {}) {
     transformHtmlSlider(this, slidesWidth, slidesHeight, slides, nav, loop, dots, autoplay);
     setStyle(slidesWidth, slides, slidesHeight, loop);
 
-    if (autoplay) {        
-        setInterval(nextSlide, autoplaySpeed, slidesWidth, slides);   
+    if (autoplay) { 
+        setInterval(nextSlide, autoplaySpeed, slidesWidth, slides);
+        loop(true);                
     }
 };
 
@@ -141,7 +142,6 @@ function nextSlide(slidesWidth, slides, loop) {
             el.classList.remove('active');
         }
     });
-    console.log (activeIndex); 
     
     if ((activeIndex - (slides - 2)) % slides === 0) {
         dotsClassChange(true);
